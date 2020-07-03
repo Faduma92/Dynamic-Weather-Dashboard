@@ -2,6 +2,9 @@
 
 GitHub Pages:  https://faduma92.github.io/Dynamic-Weather-Dashboard/
 
+**Screenshot of the web application**
+![screenshot](Dashboard-screenshot.png)
+
 This app uses the OpenWeather API to retrieve current weather and 5-day forecast data for cities using "search" inputs and geolocation.
 
 It uses AJAX to hook into the API to retrieve data in JSON format.
