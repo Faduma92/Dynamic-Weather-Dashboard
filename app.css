@@ -1,0 +1,57 @@
+/* #listSearch {
+    border-bottom: 1px solid #f48fb1;
+    box-shadow: 0 1px 0 0 #f48fb1;
+  } */
+
+  * {
+      margin: 0;
+      box-sizing: border-box;
+  }
+
+  body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      flex-flow: row wrap;
+      background: linear-gradient(#9795EF, #5DE6DE);
+      font-family: sans-serif;
+      color: white;
+  }
+
+  .list-group {
+      color: black;
+  }
+
+  .location {
+      height: 50vh;
+      width: 50%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-flow: column wrap;
+  }
+.card {
+    background-color: #cfff
+}
+  .card-text, .card-title {
+      color: black;
+  }
+
+  .degree-section {
+      display: flex;
+     align-items: center;
+     cursor: pointer;
+
+  }
+
+ .degree-section span {
+     margin: 10px;
+     font-size: 25px;
+     margin-bottom: 15px;
+ }
+
+ .degree-section h2 {
+     font-size: 30px;
+ }

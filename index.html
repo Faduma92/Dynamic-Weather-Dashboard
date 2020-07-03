@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css" />
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+
+<br>  
+    <div class="container col-4">
+        <div class="search">
+            <input class="form-control" id="listSearch" type="text submit" name="Locations" placeholder="Search for a city">
+            <br>
+            <ul class="list-group" id="myList">
+                <li class="list-group-item"></li>
+              <button type="submit" class="btn btn-primary btn-default" id="run-search">Search</button>
+            </ul>
+          </div>
+    </div>
+
+    
+    <div class="location col-5">
+        <h1 id="location-timezone" style="font-size: 50px;">Timezone</h1>
+        <h2 id="currentDate">Date</h4>
+
+<div class="weatherConditions">
+    <div class="degree-section">
+        <h2 id="temperature-degree">Temperature</h2><span>°C</span> 
+    </div>
+        <h4 id="humidity">Humidity</h4>
+        <h4 id="windspeed">Wind Speed</h4>
+        <h4 id="UVindex">UV Index</h4>
+    </div>
+    </div>
+    <br>
+
+    <div class="container col-3" id="currentweatherImage">
+        <img id="weatherImage" src="..." class="card-img-top" alt="...">
+    </div>
+
+    <div class="container 5dayForecast">
+        <div class="card-deck">
+            <div class="card">
+                <img id="icon0" src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 id="cardDate0" class="card-title">Date</h5>
+                    <p id="temp0" class="card-text">Temperature</p>
+                    <p id="humidity0" class="card-text">Humidity</p>
+                </div>
+            </div>
+            <div class="card">
+                <img id="icon8" src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 id="cardDate8" class="card-title">Date</h5>
+                    <p id="temp8" class="card-text">Temperature</p>
+                    <p id="humidity8" class="card-text">Humidity</p>
+                </div>
+            </div>
+            <div class="card">
+                <img id="icon16" src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 id="cardDate16" class="card-title">Date</h5>
+                    <p id="temp16" class="card-text">Temperature</p>
+                    <p id="humidity16" class="card-text">Humidity</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img id="icon24" src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 id="cardDate24" class="card-title">Date</h5>
+                    <p id="temp24" class="card-text">Temperature</p>
+                    <p id="humidity24" class="card-text">Humidity</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img id="icon32" src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 id="cardDate32" class="card-title">Date</h5>
+                    <p id="temp32" class="card-text">Temperature</p>
+                    <p id="humidity32" class="card-text">Humidity</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+       <script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script> 
+    <script src="app.js"></script>
+</body>
+
+</html>
