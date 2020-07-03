@@ -13,25 +13,25 @@ This app runs in the browser and features dynamically updated HTML and CSS power
 It then displays the following under current weather conditions:
 
 
-City
+- City
 
 
-Date
+- Date
 
 
-Icon image (visual representation of weather conditions)
+- Icon image (visual representation of weather conditions)
 
 
-Temperature
+- Temperature
 
 
-Humidity
+- Humidity
 
 
-Wind speed
+- Wind speed
 
 
-UV index
+- UV index
 
 
 
@@ -42,13 +42,13 @@ It includes a search history so that users can access their past search terms.
 It includes a 5-Day Forecast below the current weather conditions. Each day for the 5-Day Forecast displays the following:
 
 
-Date
+- Date
 
 
-Icon image (visual representation of weather conditions)
+- Icon image (visual representation of weather conditions)
 
 
-Temperature
+- Temperature
 
 
-Humidity
+- Humidity
